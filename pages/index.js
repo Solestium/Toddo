@@ -1,5 +1,5 @@
 import Link from 'next/link'
-// import MailchimpSubscribe from 'react-mailchimp-subscribe'
+import MailchimpSubscribe from '../components/mailchimp'
 
 import Page from '../layouts/app'
 
@@ -12,9 +12,11 @@ export default () => (
         Voor hotels, groepsaccommodaties, campings en b&b
       </div>
 
-      {/* <div className="sign-up">
-        <MailchimpSubscribe url={'https://solestium.us20.list-manage.com/subscribe/post?u=84f0304fac4f5d8e8e3ef45c7&amp;id=6dee8e0c83'} />
-      </div> */}
+      <MailchimpSubscribe
+        url={
+          'https://solestium.us20.list-manage.com/subscribe/post?u=84f0304fac4f5d8e8e3ef45c7&amp;id=6dee8e0c83'
+        }
+      />
     </div>
 
     <footer>
@@ -29,15 +31,6 @@ export default () => (
         display: flex;
         align-items: center;
         justify-content: center;
-      }
-
-      .sign-up input {
-        border: 0;
-        appereance: none;
-      }
-
-      .sign-up button {
-        appereance: none;
       }
     `}</style>
     <style jsx>{`
