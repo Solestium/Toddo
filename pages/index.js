@@ -9,7 +9,7 @@ export default () => (
       <div className="title">Toddo</div>
 
       <div className="subtitle">
-        Voor hotels, groepsaccommodaties, campings en b&b
+        Voor hotels, groepsaccommodaties, campings en b&b.
       </div>
 
       {/* <div className="sign-up">
