@@ -1,0 +1,13 @@
+{
+  "name": "Toddo landing page",
+  "version": 2,
+  "scope": "solestium",
+  "alias": "toddo.nl",
+  "regions": ["bru"],
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ]
+}
